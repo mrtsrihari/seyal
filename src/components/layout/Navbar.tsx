@@ -42,9 +42,10 @@ export function Navbar() {
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
-                className="flex items-center"
+                className="flex items-center gap-2"
               >
                 <Image src="/logo.png" alt="Seyal Logo" width={150} height={50} className="object-contain h-12 w-auto" />
+                <span className="text-2xl font-bold tracking-tighter text-white">Seyal.net</span>
               </motion.div>
             </Link>
           </div>

@@ -18,8 +18,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
           {/* Brand Col */}
           <div className="space-y-6">
-            <Link href="/" className="inline-block">
+            <Link href="/" className="inline-flex items-center gap-2">
               <Image src="/logo.png" alt="Seyal Logo" width={150} height={50} className="object-contain h-12 w-auto" />
+              <span className="text-3xl font-bold tracking-tighter text-white">Seyal.net</span>
             </Link>
             <p className="text-white/60 font-medium text-lg italic">
               "உலகின் தலைசிறந்த சொல் செயல்"
