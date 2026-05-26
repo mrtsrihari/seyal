@@ -1,6 +1,7 @@
 import { getSiteData, updateStats, addProject, deleteProject, addTestimonial, deleteTestimonial } from "@/lib/actions";
+import { logout } from "@/lib/auth-actions";
 import { GlowButton } from "@/components/ui/GlowButton";
-import { Trash2 } from "lucide-react";
+import { Trash2, LogOut } from "lucide-react";
 
 export const dynamic = "force-dynamic";
 
@@ -10,7 +11,15 @@ export default async function AdminPage() {
   return (
     <div className="min-h-screen bg-brand-primary text-white pt-32 pb-20 px-6 md:px-12">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-4">Admin Dashboard</h1>
+        <div className="flex justify-between items-center mb-4">
+          <h1 className="text-4xl font-bold">Admin Dashboard</h1>
+          <form action={logout}>
+            <button type="submit" className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg text-white/80 hover:text-white transition-colors">
+              <LogOut size={18} />
+              <span>Logout</span>
+            </button>
+          </form>
+        </div>
         
         <div className="bg-brand-purple/20 border border-brand-purple/50 rounded-xl p-4 mb-10">
           <h2 className="text-xl font-bold text-brand-cyan mb-2">Vercel KV Database Ready</h2>
