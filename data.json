@@ -1,0 +1,51 @@
+{
+  "stats": {
+    "projectsCompleted": 50,
+    "yearsExperience": 5,
+    "happyClients": 40,
+    "awardsWon": 12
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Neon AI Dashboard",
+      "category": "Website Projects",
+      "tech": "Next.js, Tailwind, WebGL",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 2,
+      "title": "Aura Brand Identity",
+      "category": "Creative Designs",
+      "tech": "Figma, Illustrator",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 3,
+      "title": "Cyberpunk E-Commerce",
+      "category": "Website Projects",
+      "tech": "React, Framer Motion",
+      "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Jenkins",
+      "role": "CEO, TechNova",
+      "content": "Seyal.net completely transformed our digital presence. The website they built for us isn't just fast—it's a cinematic experience. Our conversion rates have doubled."
+    },
+    {
+      "id": 2,
+      "name": "David Chen",
+      "role": "Founder, Quantum AI",
+      "content": "The level of creativity and technical expertise at Seyal is unmatched. They understood our vision perfectly and delivered a product that looks straight out of the future."
+    },
+    {
+      "id": 3,
+      "name": "Priya Patel",
+      "role": "Marketing Director, Lumina",
+      "content": "Working with Seyal was a game-changer. Their attention to detail, especially with animations and UI/UX, makes them the best digital partners we've ever had."
+    }
+  ]
+}
