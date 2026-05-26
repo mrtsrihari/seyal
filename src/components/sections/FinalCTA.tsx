@@ -24,7 +24,7 @@ export function FinalCTA() {
           className="max-w-4xl mx-auto backdrop-blur-sm bg-white/5 border border-white/10 p-12 md:p-20 rounded-3xl shadow-[0_0_50px_rgba(168,85,247,0.3)] relative overflow-hidden group"
         >
           {/* Animated glow on card border */}
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-electric via-brand-purple to-brand-cyan opacity-0 group-hover:opacity-20 transition-opacity duration-1000" />
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-electric via-brand-purple to-brand-cyan opacity-0 group-hover:opacity-20 transition-opacity duration-1000 pointer-events-none" />
           
           <h2 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">
             Let’s Build Something <br className="hidden md:block" />
