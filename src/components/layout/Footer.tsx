@@ -20,7 +20,7 @@ export function Footer() {
           <div className="space-y-6">
             <Link href="/" className="inline-flex items-center gap-2">
               <Image src="/logo.png" alt="Seyal Logo" width={150} height={50} className="object-contain h-12 w-auto" />
-              <span className="text-3xl font-bold tracking-tighter text-white">Seyal.net</span>
+              <span className="text-3xl font-bold tracking-tighter"><GradientText>Seyal</GradientText>.net</span>
             </Link>
             <p className="text-white/60 font-medium text-lg italic">
               "உலகின் தலைசிறந்த சொல் செயல்"

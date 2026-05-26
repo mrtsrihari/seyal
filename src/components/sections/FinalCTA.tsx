@@ -47,7 +47,7 @@ export function FinalCTA() {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://wa.me/919047766887"
+              href="https://api.whatsapp.com/send?phone=919047766887"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 bg-[#25D366]/20 border border-[#25D366]/50 text-white px-10 py-5 rounded-full hover:bg-[#25D366]/30 transition-colors w-full sm:w-auto text-lg font-medium shadow-[0_0_20px_rgba(37,211,102,0.3)]"
